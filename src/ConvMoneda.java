@@ -1,3 +1,4 @@
+
 public class ConvMoneda {
 	double cant;
 	double vcambio;
@@ -18,6 +19,8 @@ public class ConvMoneda {
 	
 	public double convertir(){
 
-	return Math.round((cant*vcambio)*100.0)/100.0;
+		return Math.round((cant*vcambio)*100.0)/100.0;
+		
+		
 	}
 }
